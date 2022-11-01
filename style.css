@@ -19,6 +19,8 @@ img {
 .right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 80vh;
 }
 
 .banner {
@@ -36,16 +38,17 @@ img {
 }
 
 .message {
-  font-size: 4vh;
+  font-size: 3vh;
   margin-left: 10vh;
+  width: 80%;
   color: wheat;
 }
 
 .middle {
   background-color: #1c1815;
   color: #d8c6a8;
-  height: 30vh;
   filter: drop-shadow(10px 10px 4px black);
-  margin-top: 12.5vh;
+  margin-top: 6.5vh;
   margin-bottom: 10vh;
+  height: 40vh;
 }
