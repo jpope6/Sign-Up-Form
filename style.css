@@ -1,11 +1,51 @@
 body {
-  background-color: #1c1815;
+  background-color: #181413;
   height: 100%;
   width: 100%;
   margin: 0;
+  position: relative;
 }
 
 img {
   height: 99vh;
   width: auto;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+  position: absolute;
+  height: 10vh;
+  width: 74.3vh;
+  top: 20%;
+  left: 0;
+  opacity: 0.5;
+}
+
+.message {
+  font-size: 4vh;
+  margin-left: 10vh;
+  color: wheat;
+}
+
+.middle {
+  background-color: #1c1815;
+  color: #d8c6a8;
+  height: 30vh;
+  filter: drop-shadow(10px 10px 4px black);
+  margin-top: 12.5vh;
+  margin-bottom: 10vh;
 }
