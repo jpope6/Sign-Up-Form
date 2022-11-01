@@ -19,8 +19,8 @@ img {
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 80vh;
+  justify-content: space-evenly;
+  height: 92vh;
 }
 
 .banner {
@@ -38,7 +38,7 @@ img {
 }
 
 .message {
-  font-size: 3vh;
+  font-size: large;
   margin-left: 10vh;
   width: 80%;
   color: wheat;
@@ -47,8 +47,7 @@ img {
 .middle {
   background-color: #1c1815;
   color: #d8c6a8;
-  filter: drop-shadow(10px 10px 4px black);
-  margin-top: 6.5vh;
-  margin-bottom: 10vh;
-  height: 40vh;
+  filter: drop-shadow(5px 5px 4px black);
+  height: 35vh;
+  margin-bottom: 1vh;
 }
