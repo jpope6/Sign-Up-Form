@@ -65,6 +65,8 @@
                       name="phone_number"
                       id="phone_number"
                       required
+                      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                      title="Please enter a valid phone number in the format: 123-456-7890"
                     />
                   </div>
                 </div>
@@ -91,13 +93,13 @@
                       minlength="5"
                     />
                   </div>
+                  <div class="bottom">
+                    <button class="create" type="submit">Create Account</button>
+                  </div>
                 </div>
               </div>
             </form>
           </div>
-        </div>
-        <div class="bottom">
-          <button class="create" type="submit">Create Account</button>
         </div>
       </div>
     </div>
